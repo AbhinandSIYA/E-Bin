@@ -24,17 +24,51 @@
     height: 100px;
     width: 80%;
     border-radius: 5px;
-    margin-top: -55px;
+    margin-top: -25px;
     text-align: center;
     font-family: Arial;
 }
 .logintxt{
     margin-top: 25px;
     font-size: 2.5em;
+    display: inline-block;
+    vertical-align: middle;
 }
 .logfld{
-    height: 400px;
+    height: 320px;
     width:40%;
     background-color: #f9f9f9;
     margin-top: 75px;
+    border-radius: 8px;
+}
+.txtfld{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #bfbfbf;
+    outline:none;
+    box-shadow:none;
+    color: #9f9f9f;
+
+}
+.loginbtn{
+    width: 100px;
+    color: white;
+    font-family: Arial;
+    height: 30px;
+    background-color: #ffa200;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.loginbtn:hover{
+    color: green;
+    background-color: #ffae01;
+}
+.txtfldimg{
+    height: 33px;
+    margin-right: 20px;
+}
+.form{
+    margin-top: 40px;
+    text-align: center;
+
 }
