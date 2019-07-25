@@ -1,0 +1,20 @@
+.header{
+    height: 161px;
+    width: 100%;
+    padding: 0px;
+}
+.headlogo{
+    margin-top: -142px;
+    height:100px ;
+    width: 100%;
+
+}
+.hlogoimg{
+    height: 90px;
+    width: 200px;
+}
+.loginpg{
+    background-color: red;
+    height: 600px;
+    margin-top: -11px;
+}
