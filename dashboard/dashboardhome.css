@@ -1,6 +1,6 @@
 .dashcontentdiv{
     height: 640px;
-    background-color: #898989 ;
+    background-color: #efefef ;
     float: right;
 }
 .dashhead{
@@ -20,7 +20,7 @@
 .dashsearch{
     margin-top: 30px;
 }
-.dashsearchic{
+.icons{
     height: 22px;
 }
 .dashtxtfld{
@@ -38,4 +38,50 @@
     border-radius: 3px;
     float: left;
 }
+.dashmenu{
 
+}
+.menu{
+    background-color: #1d1d1d;
+    color: #444444;
+    margin-top: 10px;
+    height: 25px;
+    width: 125%;
+    padding: 2px;
+    padding-left: 10px;
+    margin-left: -15px;
+    font-size: small;
+}
+.nav-link{
+    color: white;
+
+}
+.nav-link:hover{
+    color: #9f9f9f;
+}
+.navbr{
+    margin-left: -15px;
+    width: 125%;
+    padding-left: 30px;
+    border: 2px ;
+    font-size: small;
+}
+.navicons{
+    height: 18px;
+    margin-right: 15px;
+    float: left;
+}
+.navtxt{
+    float: left;
+}
+.linkes{
+    background-color: #1d1d1d;
+    color: #444444;
+
+    height: 25px;
+    width: 125%;
+    padding: 2px;
+    padding-left: 10px;
+    margin-left: -15px;
+    font-size: small;
+}
