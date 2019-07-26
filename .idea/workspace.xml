@@ -5,6 +5,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/dashboardhome.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/dashboardhome.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard/dashboardhome.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/dashboardhome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/e-bin_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/e-bin_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/head_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/head_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/password.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/user2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user2.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +39,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/dashboard" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/login" />
     </key>
   </component>
@@ -67,7 +79,7 @@
       <workItem from="1563959270875" duration="5214000" />
       <workItem from="1563967494184" duration="26623000" />
       <workItem from="1564063677083" duration="7373000" />
-      <workItem from="1564115725089" duration="3860000" />
+      <workItem from="1564115725089" duration="11412000" />
     </task>
     <servers />
   </component>
