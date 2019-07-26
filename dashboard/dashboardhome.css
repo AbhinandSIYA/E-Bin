@@ -1,0 +1,15 @@
+.dashcontentdiv{
+    height: 640px;
+    background-color: #898989 ;
+    float: right;
+}
+.dashhead{
+    height: 60px;
+    float: right;
+    background-color: #4d8510;
+}
+.dashicondiv{
+    height: 700px;
+    background-color: #1d1d1d;
+    float: left;
+}
