@@ -12,18 +12,22 @@
 </head>
 <body>
 <div >
-    <div class="dashicondiv col-2">
+
+
+
+    <div class="dashicondiv   col-2 col-sm-3 col-md-2  ">
        <div >
            <img class="dashlogo" src="../images/e-bin_logo.png" alt="">
        </div>
         <div class="row">
-        <div class="container dashsearch col-12 col-sm-12 col-md-12 ">
+        <div class="container dashsearch d-inline-flex col-12 col-sm-12 col-md-12 ">
             <div class=" searchic d-flex justify-content-center align-items-center">
                 <img class="icons" src="../images/search.png">
             </div>
                 <input type="text" class="dashtxtfld" >
         </div>
         </div>
+
         <div class="dashmenu">
             <div class="menu">
                 <p>MENUS</p>
@@ -37,6 +41,7 @@
                 </li>
             </ul>
         </div>
+
         <div class="dashmenu">
             <div class="linkes">
                 <p>LINKES</p>
@@ -54,18 +59,93 @@
             </ul>
         </div>
     </div>
-    <div class="dashhead  col-10">
+
+
+
+    <div class="dashhead  col-10 ">
         <img class="menubar" src="../images/menu_bar.png" alt="">
         <div class="menubarright">
-            <img class="menubarimg" src="../images/notification.png" alt="">
-            <img class="menubarimg" src="../images/messages.png" alt="">
-            <img class="menubarimg" src="../images/info.png" alt="">
-            <img class="menubarimg" src="../images/admin.png" alt=""><a style="color: #f9f9f9" href="#">Admin</a>
+            <img class="adminimg  rounded-circle" src="../images/admin.png" alt=""><a style="color: #f9f9f9;text-decoration: none" href="#">Admin</a>
+        </div>
+        <div class="menubarright">
+            <div class="notif">
+                <img class="menubarimg" src="../images/notification.png" alt="" ><span class="badge badge-warning">4</span>
+            </div>
+            <div class="notif">
+                <img class="menubarimg " src="../images/messages.png" alt=""><span class="badge badge-success">3</span>
+            </div>
+            <div class="notif">
+                <img class="menubarimg" src="../images/info.png" alt=""><span class="badge badge-danger">1</span>
+            </div>
+
         </div>
     </div>
-    <div class="dashcontentdiv col-10" >
 
+
+
+    <div class="dashcontentdiv col-10" >
+       <div class="topbar">
+         <h4 class="topheader">DASHBOARD</h4>
+           <div class="topbardir">
+               <div class="dir">
+                   <img class="topbarimg" src="../images/home2.png" alt="">
+               </div>
+              <div class="dir">
+                  <h6 class="topbartxt">Home</h6>
+              </div>
+               <div class="dir">
+                   <img class="topbarimg" src="../images/arroe_left.png" alt="">
+               </div>
+               <div class="dir">
+                   <h6 class="topbartxt">Dashboard</h6>
+               </div>
+           </div>
+       </div>
+
+
+        <div class=" col-12 d-flex flex-container   align-items-center statusbox">
+            <div class="d-flex statusbox1">
+               <div class="d-flex align-items-center justify-content-center statusboxic1">
+                   <img class="statusimg" src="../images/setting3.png" alt="">
+               </div>
+                <div>
+                    <h6>CPU TRAFFIC</h6>
+                    <h5>90%</h5>
+                </div>
+            </div>
+            <div class="d-flex  statusbox1">
+                <div class="d-flex align-items-center justify-content-center statusboxic2">
+                    <img class=" statusimg" src="../images/google+.png" alt="">
+                </div>
+                <div>
+                  <h6>LIKES</h6>
+                    <h5>41,410</h5>
+                </div>
+            </div>
+            <div class="d-flex statusbox1">
+                <div class="d-flex align-items-center justify-content-center statusboxic3">
+                    <img  class="statusimg" src="../images/cart.png" alt="">
+                </div>
+                <div>
+                   <h6>SALES</h6>
+                    <h5>760</h5>
+                </div>
+            </div>
+            <div class="d-flex statusbox1">
+                <div class="d-flex align-items-center justify-content-center statusboxic4">
+                    <img class="statusimg" src="../images/people.png" alt="">
+                </div>
+                <div>
+                    <h6>NEW MEMBERS</h6>
+                    <h5>2,000</h5>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+
 </div>
 </body>
 </html>
