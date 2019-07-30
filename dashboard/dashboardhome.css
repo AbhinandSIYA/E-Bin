@@ -151,17 +151,16 @@
     height: 100px;
     width: 100%;
     background-color: #efefef;
-    justify-content: space-around;
 }
 .statusbox1{
     height: 80px;
     width: 220px;
-    background-color: #f9f9f9;
+    background-color: #00ffad;
 }
 .statusboxic1,.statusboxic2,.statusboxic3,.statusboxic4{
     height: 80px;
-    width: 80px;
-
+    width: 50%;
+    margin-left: -15px;
 }
 .statusboxic1{
     background-color: #337ab7;
@@ -175,9 +174,21 @@
 .statusboxic4{
     background-color: #ffae01;
 }
-.statusboxtxt{
-
-}
 .statusimg{
     height: 50px;
+}
+.statustxt
+{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+h6{
+    font-size: small;
+    font-weight: bold;
+    color: #9f9f9f;
+}
+h5{
+    font-weight: bold;
 }
