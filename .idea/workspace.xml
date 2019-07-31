@@ -37,7 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -81,7 +81,11 @@
       <workItem from="1564399209238" duration="797000" />
       <workItem from="1564403336909" duration="8109000" />
       <workItem from="1564462516521" duration="4461000" />
-      <workItem from="1564469244070" duration="2314000" />
+      <workItem from="1564469244070" duration="4826000" />
+      <workItem from="1564480971868" duration="1491000" />
+      <workItem from="1564483276729" duration="581000" />
+      <workItem from="1564554256864" duration="739000" />
+      <workItem from="1564555041796" duration="8546000" />
     </task>
     <servers />
   </component>

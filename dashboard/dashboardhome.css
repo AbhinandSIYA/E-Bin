@@ -148,19 +148,20 @@
    padding: 5px;
 }
 .statusbox{
-    height: 100px;
-    width: 100%;
     background-color: #efefef;
 }
 .statusbox1{
     height: 80px;
-    width: 220px;
-    background-color: #00ffad;
+    width: 100%;
+    background-color: #f9f9f9;
+    margin-left:25px;
+    margin-top:15px;
 }
 .statusboxic1,.statusboxic2,.statusboxic3,.statusboxic4{
     height: 80px;
     width: 50%;
     margin-left: -15px;
+
 }
 .statusboxic1{
     background-color: #337ab7;
