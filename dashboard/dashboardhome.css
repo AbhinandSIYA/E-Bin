@@ -1,5 +1,5 @@
 .dashcontentdiv{
-    height: 640px;
+    height: 100%;
     background-color: #efefef ;
     float: right;
 }
@@ -194,24 +194,19 @@ h5{
     font-weight: bold;
 }
 .graphs{
-    height: 300px;
-    width: 90%;
+    height: 100%;
     background-color: #f9f9f9;
+    margin-top: 25px;
+    margin-left: 0px;
+
 }
 .linegraph{
     height: 250px;
-    width:50%;
     background-color: #f9f9f9;
+    position: relative;
+    margin-bottom: 35px;
 }
 .piegraph{
     height: 250px;
-    width: 50%;
     background-color: #f9f9f9;
-    float: right;
-}
-.graphtitle{
-    font-size: small;
-    font-weight: bold;
-    color: #1d1d1d;
-    text-align: center;
 }
