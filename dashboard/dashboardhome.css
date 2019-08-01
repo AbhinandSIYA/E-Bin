@@ -264,3 +264,21 @@ p{
     font-size: 11px;
     margin-bottom: 0;
 }
+.progress{
+    height: 2px;
+}
+.progressinv{
+    background-color: #cc8505;
+}
+.progressment{
+    background-color: #066940bd;
+}
+.progressdwn{
+    background-color: #8c1a0080;
+}
+.progressdm{
+    background-color: #038eacc7;
+}
+.progress-bar{
+    background-color: white;
+}
