@@ -192,6 +192,7 @@ h6{
 }
 h5{
     font-weight: bold;
+    font-size: 18px;
 }
 .graphs{
     height: 100%;
@@ -209,4 +210,57 @@ h5{
 .piegraph{
     height: 250px;
     background-color: #f9f9f9;
+}
+
+.progressbar1,.progressbar2,.progressbar3,.progressbar4{
+    height: 80px;
+    width: 100%;
+    margin-left:25px;
+    margin-top:15px;
+}
+.progressbaric1,.progressbaric2,.progressbaric3,.progressbaric4{
+    height: 80px;
+    width: 50%;
+    margin-left: -15px;
+
+}
+.progressbaric1{
+    background-color: #cc8505;
+}
+.progressbaric2{
+    background-color: #066940bd;
+}
+.progressbaric3{
+    background-color: #8c1a0080;
+}
+.progressbaric4{
+    background-color: #038eacc7;
+}
+.progressbarimg{
+    height: 50px;
+}
+.progressbartxt
+{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+.progressbar1{
+    background-color: #ffa709;
+}
+.progressbar2{
+    background-color: #0fa74c;
+}
+.progressbar3{
+    background-color: #d03411e0;
+}
+.progressbar4{
+    background-color: #0cbad6cf;
+}
+p{
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 0;
 }
