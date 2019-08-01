@@ -193,3 +193,25 @@ h6{
 h5{
     font-weight: bold;
 }
+.graphs{
+    height: 300px;
+    width: 90%;
+    background-color: #f9f9f9;
+}
+.linegraph{
+    height: 250px;
+    width:50%;
+    background-color: #f9f9f9;
+}
+.piegraph{
+    height: 250px;
+    width: 50%;
+    background-color: #f9f9f9;
+    float: right;
+}
+.graphtitle{
+    font-size: small;
+    font-weight: bold;
+    color: #1d1d1d;
+    text-align: center;
+}

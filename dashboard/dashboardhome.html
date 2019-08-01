@@ -9,6 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="dashboardhome.css">
 </head>
 <body>
@@ -84,7 +85,7 @@
 
 
 
-    <div class="dashcontentdiv col-10 col-sm-10 col-md-10" >
+    <div class="dashcontentdiv  col-10 col-sm-10 col-md-10" >
        <div class="topbar">
          <h4 class="topheader">DASHBOARD</h4>
            <div class="topbardir">
@@ -144,99 +145,76 @@
         </div>
 
 
-        <div class="graphs">
+        <div class="row container  mx-5 mt-3 graphs">
 
-            <div>
-                <canvas id="lineChart" width="100" height="100"></canvas>
+            <div class="my-3  linegraph">
+                <h6 class="graphtitle">Web  Traffic Overview</h6>
+                <canvas id="lineChart" ></canvas>
+            </div>
+            <div class="d-flex my-3  piegraph">
+                <h6 class="graphtitle">Language Overview</h6>
+                <canvas id="pieChart" ></canvas>
             </div>
 
         </div>
 
+
+
     </div>
-
-
-<script>
-var ctx = document.getElementById('lineChart').getContext('2d');
-var lineChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: true
-                }
-            }]
-        }
-    }
-});
-</script>
 
 </div>
 
 
 
 <script>
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var myChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-            datasets: [{
-                label: '# of Votes',
-                data: [12, 19, 3, 5, 2, 3],
-                backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)'
-                ],
-                borderColor: [
-                    'rgba(255, 99, 132, 1)',
-                    'rgba(54, 162, 235, 1)',
-                    'rgba(255, 206, 86, 1)',
-                    'rgba(75, 192, 192, 1)',
-                    'rgba(153, 102, 255, 1)',
-                    'rgba(255, 159, 64, 1)'
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true
-                    }
-                }]
-            }
+    const ctx=document.getElementById("lineChart");
+    let lineChart=new Chart(ctx,{
+        type:'line',
+        data:data={
+            labels:["January","February","March","April","May","June","July","August","September","October","November","December"],
+            datasets:[
+                {
+                    label:"CoPilot",
+                    fill:false,
+                    lineTension:0.1,
+                    backgroundColor:"rgba(75,192,192,0.4)",
+                    borderColor:"#003c96",
+                    borderCapStyle:'butt',
+                    borderDash:[],
+                    borderDashOffset:0.0,
+                    borderJoinStyle:'minter',
+                    data:[1000000,1225000,1500000,1102000,1024000,1600000,1000000,1225000,1600000,1102000,1824000,2000000,]
+                },
+                {
+                    label:"Personal Site",
+                    fill:false,
+                    lineTension:0.1,
+                    backgroundColor:"#337ab7",
+                    borderColor:"rgba(75,192,192,1)",
+                    borderCapStyle:'butt',
+                    borderDash:[],
+                    borderDashOffset:0.0,
+                    borderJoinStyle:'minter',
+                    data:[1530000,1225000,1600000,1102000,1824000,2000000,1000000,1225000,1500000,1102000,1024000,1600000,]
+                }
+            ]
         }
-    });
+    })
+</script>
+<script>
+    const chart=document.getElementById("pieChart");
+    let pieChart=new Chart(chart,{
+        type:'pie',
+        data:{
+            labels:["HTML","JavaScript","CSS"],
+            datasets:[
+                {
+                    label:"Points",
+                    backgroundColor:["#4d8510","#ffa200","#337ab7"],
+                    data:[60,30,10]
+                }]
+        }
+    })
 </script>
 
 </body>
