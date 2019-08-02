@@ -145,7 +145,7 @@
 }
 .topheader{
     margin-left: 15px;
-   padding: 5px;
+    padding: 5px;
 }
 .statusbox{
     background-color: #efefef;
@@ -304,4 +304,37 @@ p{
 .copyright{
     height: 10px;
     text-align: center;
+}
+.agencytxt1,.agencytxt2{
+    background-color: #1d1d1d;
+    width: 100%;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.agencytxt1{
+    border-bottom: 1px solid #343a3f;
+    border-left: 1px solid #343a3f;
+}
+.agencytxt2 {
+    margin-top: -1px;
+    border-top: 1px solid #343a3f;
+    border-left: 1px solid #343a3f;
+}
+.agency{
+    height:100%;
+    margin-left: -30px;
+    background-color: #1d1d1d;
+    color: #343a3f;
+}
+.listic1,.listic2{
+    height: 12px;
+    position: fixed;
+    margin-left: 24px;
+}
+.listicon{
+    display: contents;
 }
