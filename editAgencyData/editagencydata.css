@@ -196,3 +196,48 @@
 .listicon{
     display: contents;
 }
+.editagency1{
+    height: 400px;
+    width: 50%;
+
+}
+.editagency2{
+    height: 400px;
+    width: 50%;
+
+}
+.editagency{
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.tagbox{
+    background-color: #4d8510;
+    height: 50px;
+    width: 6%;
+    border-radius: 5px;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+.tagimg{
+    height: 35px;
+}
+.txtfldimg{
+    height: 20px;
+    margin-right: 20px;
+}
+.form{
+    margin-top: 40px;
+    text-align: center;
+
+}
+.txtfld{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #bfbfbf;
+    outline:none;
+    box-shadow:none;
+    color: #9f9f9f;
+}
+.radiobtn{
+    margin-left: -110px;
+}
