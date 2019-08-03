@@ -148,7 +148,7 @@
     padding: 5px;
 }
 .footer {
-    margin-top: 50px;
+    margin-top: 100px;
     height: 50px;
     background-color: #f9f9f9;
     margin-left: -15px;
@@ -201,7 +201,7 @@
 .viewagency{
     border-radius: 8px;
     background-color: #f9f9f9;
-    height: 500px;
+    height: 100%;
 }
 .tagbox{
     background-color: #4d8510;
@@ -249,4 +249,18 @@
 }
 td{
     font-size:10px ;
+}
+.pagination a.active{
+    background-color: #ffcb00;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    transition: background-color .3s;
+}
+.pagination{
+    font-size: 12px;
 }
