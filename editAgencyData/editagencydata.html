@@ -128,11 +128,16 @@
 
         <div class="container mt-5 col-11 col-sm-11 col-md-11 editagency">
 
-                <div class="d-flex center-block " style="margin-left: 0;margin-right: 0">
-<!--                    <div class="container d-flex justify-content-center align-items-center tagbox">-->
-<!--                        <img class="tagimg" src="../images/Add_agency.png" alt="">-->
-<!--                    </div>-->
-                    <div class="editagency1">
+            <div class="d-flex">
+                <div class="tagbox d-flex align-items-center justify-content-center">
+                    <img class="tagimg" src="../images/Add_agency.png" alt="">
+                </div>
+                <h5 class="mt-1 ml-1">EDIT AGENCY DATA</h5>
+            </div>
+
+                <div class="row  d-flex " style="margin-left: 0;margin-right: 0">
+
+                    <div class=" col-12 col-sm-12 col-md-6 editagency1">
                         <form class="form ">
                             <div class="form-group">
                                 <img class="txtfldimg" src="../images/user2.png" alt=""><input type="text" name="name" class="txtfld" placeholder="Name">
@@ -144,15 +149,14 @@
                                 <img class="txtfldimg" src="../images/call.png" alt=""><input type="number" name="contactnumber" class="txtfld" placeholder="Contact Number">
                             </div>
                             <div class="form-group">
-                                <img class="txtfldimg" src="../images/address.png" alt=""><input type="text" name="address" class="txtfld"  placeholder="Address">
-
+                                <img class="txtfldimgadrs" src="../images/address.png" alt=""> <textarea name="address" rows="5" cols="20" class="txtfld" placeholder="Address"></textarea>
                             </div>
                             <div class="form-group">
                                 <img class="txtfldimg" src="../images/user2.png" alt=""><input type="text" name="name" class="txtfld" placeholder="User Name">
                             </div>
                         </form>
                     </div>
-                    <div class="editagency2">
+                    <div class="col-12 col-sm-12 col-md-6 editagency2">
                         <form class="form  justify-content-center align-items-center">
                             <div class="form-group">
                                 <img class="txtfldimg" src="../images/password.png" alt=""><input type="password" name="password" class="txtfld" placeholder="Password">
@@ -169,11 +173,44 @@
                             <div class="form-group">
                                 <img class="txtfldimg" src="../images/Support%20limit.png" alt=""><input type="number" name="supportlimit" class="txtfld"  placeholder="Support Limit">
                             </div>
-                            <div class="form-group radiobtn">
-                                <img class="txtfldimg" src="../images/task.png" alt=""><a>Static</a><input type="radio" name="task" class="txtfld" ><a>Dynamic</a><input type="radio" name="task" class="txtfld">
+
+                          <div class="d-flex">
+                            <div class="form-group ml-1  col-12 col-sm-10 col-md-8 ">
+                                <img class="txtfldimg" src="../images/task.png" alt=""><label class="task" >Task</label>
+                                <div class="form-check-inline active">
+                                    <label class="form-check-label radiotxt" for="radio1">
+                                        <input type="radio" class="form-check-input " id="radio1" name="optradio" value="option1" checked>Static
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label radiotxt" for="radio2">
+                                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Dynamic
+                                    </label>
+                                </div>
                             </div>
 
+                              <div class="form-group d-flex  col-12 col-md-4 col-sm-2 dropdwn">
+                                <img class="txtfldimg" src="../images/Status.png" alt="">
+                                <div class="btn-group">
+                                    <button type="button" class="btn  dropdown-toggle btn-sm btn-outline-secondary" data-toggle="dropdown">Status</button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Active</a>
+                                        <a class="dropdown-item" href="#">Suspend</a>
+                                        <a class="dropdown-item" href="#">Waiting for Suspend</a>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
                         </form>
+
+                        <div class="d-flex justify-content-center align-items-center justify-content-around">
+                            <div>
+                                <button type="button" class="btn btn-warning" style="color: white;font-family: Arial;font-size: small;font-weight: bold">CANCEL</button>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-success" style="color: white;font-family: Arial;font-size: small;font-weight: bold">UPDATE</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
