@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33c280ba-ca0f-4062-a484-49496a857329" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/addAgency/addagency.html" beforeDir="false" afterPath="$PROJECT_DIR$/addAgency/addagency.html" afterDir="false" />
-    </list>
+    <list default="true" id="33c280ba-ca0f-4062-a484-49496a857329" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,7 @@
       <workItem from="1564483276729" duration="581000" />
       <workItem from="1564554256864" duration="739000" />
       <workItem from="1564555041796" duration="34099000" />
-      <workItem from="1564671791870" duration="55478000" />
+      <workItem from="1564671791870" duration="56166000" />
     </task>
     <servers />
   </component>
