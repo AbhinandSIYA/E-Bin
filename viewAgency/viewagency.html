@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E BIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="viewagency.css">
+</head>
+<body>
+<div >
+
+
+
+
+    <div class="dashicondiv   col-2 col-sm-2 col-md-2  ">
+        <div >
+            <img class="dashlogo" src="../images/e-bin_logo.png" alt="">
+        </div>
+        <div class="row">
+            <div class="container dashsearch d-inline-flex col-12 col-sm-12 col-md-12 ">
+                <div class=" searchic d-flex justify-content-center align-items-center">
+                    <img class="icons" src="../images/search.png">
+                </div>
+                <input type="text" class="dashtxtfld" >
+            </div>
+        </div>
+
+        <div class="dashmenu">
+            <div class="menu">
+                <p>MENUS</p>
+            </div>
+            <ul class="navbr bg-dark navbar-nav">
+                <li class="nav-item d-flex  align-items-center">
+                    <img class="navicons" src="../images/home.png" alt=""><a class="navtxt nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item d-flex  align-items-center">
+                    <img class="navicons" src="../images/dashbord.png" alt=""><a class="navtxt nav-link" href="#">Dashboard Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="dashmenu">
+            <div class="linkes">
+                <p>LINKES</p>
+            </div>
+            <ul class="navbr bg-dark navbar-nav">
+                <li class="nav-item d-flex  align-items-center">
+                    <img class="sidebar" src="../images/side_bar.png" alt=""><img class="navicons" src="../images/home4.png" alt=""><a class="navtxt nav-link" href="#">Create Agency</a>
+
+                </li>
+                <li class="agency d-flex align-items-center">
+                    <div class="listicon">
+                        <img  class="listic1" src="../images/list_icon3.png" alt="">
+                        <div class="agencytxt1">
+                            <a>Add Agency</a>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="agency  d-flex align-items-center">
+                    <div class="listicon">
+                        <img class="listic2" src="../images/list_icon2.png" alt="">
+                        <div class="agencytxt2">
+                            <a>view Agency</a>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="nav-item d-flex  align-items-center">
+                    <img class="navicons" src="../images/seatting.png" alt=""><a class="navtxt nav-link" href="#">Setting</a>
+                </li>
+                <li class="nav-item d-flex  align-items-center">
+                    <img class="navicons" src="../images/logout2.png" alt=""><a class="navtxt nav-link" href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="dashhead  col-10  col-sm-10 col-md-10">
+        <img class="menubar" src="../images/menu_bar.png" alt="">
+        <div class="menubarright">
+            <img class="adminimg  rounded-circle" src="../images/admin.png" alt=""><a style="color: #f9f9f9;text-decoration: none" href="#">Admin</a>
+        </div>
+        <div class="menubarright">
+            <div class="notif">
+                <img class="menubarimg" src="../images/notification.png" alt="" ><span class="badge badge-warning">4</span>
+            </div>
+            <div class="notif">
+                <img class="menubarimg " src="../images/messages.png" alt=""><span class="badge badge-success">3</span>
+            </div>
+            <div class="notif">
+                <img class="menubarimg" src="../images/info.png" alt=""><span class="badge badge-danger">1</span>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="dashcontentdiv   col-10 col-sm-10 col-md-10" >
+
+        <div class="topbar">
+            <h4 class="topheader">EDIT AGENCY DATA</h4>
+            <div class="topbardir">
+                <div class="dir">
+                    <img class="topbarimg" src="../images/home2.png" alt="">
+                </div>
+                <div class="dir">
+                    <h6 class="topbartxt">Home</h6>
+                </div>
+                <div class="dir">
+                    <img class="topbarimg" src="../images/arroe_left.png" alt="">
+                </div>
+                <div class="dir">
+                    <h6 class="topbartxt">Edit Agency Data</h6>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container mt-5 col-11 col-sm-11 col-md-11 viewagency">
+            <div class="d-flex">
+                <div class="tagbox d-flex align-items-center justify-content-center">
+                    <img class="tagimg" src="../images/View%20agency.png" alt="">
+                </div>
+                <h5 class="mt-1 ml-1">VIEW AGENCY</h5>
+            </div>
+            <div class="d-flex search-container" style="margin-top: -20px">
+                <form action="">
+                    <button class="searchbtnview" type="submit"><img class="viewsearchpng" src="../images/search.png" alt=""></button>
+                    <input type="text" placeholder="Search.." name="search">
+                </form>
+            </div>
+
+            <div class="tablediv row  d-flex " style="margin-left: 0;margin-right: 0">
+                <table class="table table-striped">
+                    <thead class="tablehead">
+                    <tr>
+                        <th>Agency Id</th>
+                        <th>Name</th>
+                        <th>Contact</th>
+                        <th>Email</th>
+                        <th>User Name</th>
+                        <th>Drive Limit</th>
+                        <th>Bin Limit</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>#33104</td>
+                        <td>Derik</td>
+                        <td>+919875423458</td>
+                        <td>derik@cc.com</td>
+                        <td>Derik KP</td>
+                        <td>80</td>
+                        <td>30</td>
+                        <td><img style="height: 10px;margin-right: 2px" src="../images/suspend.png" alt="">Suspend</td>
+                        <td><img class="actionimg" src="../images/delite.png" alt="">
+                            <img class="actionimg" src="../images/edit.png" alt="">
+                            <img class="actionimg" src="../images/edit2.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>#33104</td>
+                        <td>Derik</td>
+                        <td>+919875423458</td>
+                        <td>derik@cc.com</td>
+                        <td>Derik KP</td>
+                        <td>80</td>
+                        <td>30</td>
+                        <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
+                        <td><img class="actionimg" src="../images/delite.png" alt="">
+                            <img class="actionimg" src="../images/edit.png" alt="">
+                            <img class="actionimg" src="../images/edit2.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>#33104</td>
+                        <td>Derik</td>
+                        <td>+919875423458</td>
+                        <td>derik@cc.com</td>
+                        <td>Derik KP</td>
+                        <td>80</td>
+                        <td>30</td>
+                        <td><img style="height: 10px;margin-right: 2px" src="../images/suspend.png" alt="">Suspend</td>
+                        <td><img class="actionimg" src="../images/delite.png" alt="">
+                            <img class="actionimg" src="../images/edit.png" alt="">
+                            <img class="actionimg" src="../images/edit2.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>#33104</td>
+                        <td>Derik</td>
+                        <td>+919875423458</td>
+                        <td>derik@cc.com</td>
+                        <td>Derik KP</td>
+                        <td>80</td>
+                        <td>30</td>
+                        <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
+                        <td><img class="actionimg" src="../images/delite.png" alt="">
+                            <img class="actionimg" src="../images/edit.png" alt="">
+                            <img class="actionimg" src="../images/edit2.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>#33104</td>
+                        <td>Derik</td>
+                        <td>+919875423458</td>
+                        <td>derik@cc.com</td>
+                        <td>Derik KP</td>
+                        <td>80</td>
+                        <td>30</td>
+                        <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
+                        <td><img class="actionimg" src="../images/delite.png" alt="">
+                            <img class="actionimg" src="../images/edit.png" alt="">
+                            <img class="actionimg" src="../images/edit2.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>#33104</td>
+                        <td>Derik</td>
+                        <td>+919875423458</td>
+                        <td>derik@cc.com</td>
+                        <td>Derik KP</td>
+                        <td>80</td>
+                        <td>30</td>
+                        <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
+                        <td><img class="actionimg" src="../images/delite.png" alt="">
+                            <img class="actionimg" src="../images/edit.png" alt="">
+                            <img class="actionimg" src="../images/edit2.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>#33104</td>
+                        <td>Derik</td>
+                        <td>+919875423458</td>
+                        <td>derik@cc.com</td>
+                        <td>Derik KP</td>
+                        <td>80</td>
+                        <td>30</td>
+                        <td><img style="height: 10px;margin-right: 2px" src="../images/waitingforsuspend.png" alt="">Waiting to Suspend</td>
+                        <td><img class="actionimg" src="../images/delite.png" alt="">
+                            <img class="actionimg" src="../images/edit.png" alt="">
+                            <img class="actionimg" src="../images/edit2.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>#33104</td>
+                        <td>Derik</td>
+                        <td>+919875423458</td>
+                        <td>derik@cc.com</td>
+                        <td>Derik KP</td>
+                        <td>80</td>
+                        <td>30</td>
+                        <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
+                        <td><img class="actionimg" src="../images/delite.png" alt="">
+                            <img class="actionimg" src="../images/edit.png" alt="">
+                            <img class="actionimg" src="../images/edit2.png" alt=""></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+
+        <div class="footer  d-flex align-items-center">
+            <p class="footertxt ml-3">Copyright <img class="copyright" src="../images/copyright.png" alt=""> 2018 EBIN,Al right reserved</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
