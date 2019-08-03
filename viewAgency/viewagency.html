@@ -136,12 +136,14 @@
             <div class="d-flex search-container" style="margin-top: -20px">
                 <form action="">
                     <button class="searchbtnview" type="submit"><img class="viewsearchpng" src="../images/search.png" alt=""></button>
-                    <input type="text" placeholder="Search.." name="search">
+                    <input type="text" placeholder="Search.."  id="myInput" name="search">
                 </form>
             </div>
 
-            <div class="tablediv row  d-flex " style="margin-left: 0;margin-right: 0">
-                <table class="table table-striped">
+
+
+            <div class="tablediv row  col-12 col-sm-12 col-md-12 d-flex " style="margin-left: 0;margin-right: 0">
+                <table class="table  table-striped">
                     <thead class="tablehead">
                     <tr>
                         <th>Agency Id</th>
@@ -155,7 +157,7 @@
                         <th>Action</th>
                     </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="myTable">
                     <tr>
                         <td>#33104</td>
                         <td>Derik</td>
@@ -171,7 +173,7 @@
                     </tr>
                     <tr>
                         <td>#33104</td>
-                        <td>Derik</td>
+                        <td>Hardwell</td>
                         <td>+919875423458</td>
                         <td>derik@cc.com</td>
                         <td>Derik KP</td>
@@ -184,7 +186,7 @@
                     </tr>
                     <tr>
                         <td>#33105</td>
-                        <td>Derik</td>
+                        <td>David</td>
                         <td>+919875423458</td>
                         <td>derik@cc.com</td>
                         <td>Derik KP</td>
@@ -197,7 +199,7 @@
                     </tr>
                     <tr>
                         <td>#33104</td>
-                        <td>Derik</td>
+                        <td>Balvin</td>
                         <td>+919875423458</td>
                         <td>derik@cc.com</td>
                         <td>Derik KP</td>
@@ -210,7 +212,7 @@
                     </tr>
                     <tr>
                         <td>#33104</td>
-                        <td>Derik</td>
+                        <td>Alan</td>
                         <td>+919875423458</td>
                         <td>derik@cc.com</td>
                         <td>Derik KP</td>
@@ -223,7 +225,7 @@
                     </tr>
                     <tr>
                         <td>#33104</td>
-                        <td>Derik</td>
+                        <td>Timmy</td>
                         <td>+919875423458</td>
                         <td>derik@cc.com</td>
                         <td>Derik KP</td>
@@ -236,7 +238,7 @@
                     </tr>
                     <tr>
                         <td>#33104</td>
-                        <td>Derik</td>
+                        <td>Akon</td>
                         <td>+919875423458</td>
                         <td>derik@cc.com</td>
                         <td>Derik KP</td>
@@ -263,18 +265,18 @@
 
                     </tbody>
                 </table>
-                <div class="pagination">
-                    <a  href="#">First</a>
-                    <a  href="#">Previous</a>
-                    <a  class="active" href="#">1</a>
-                    <a  href="#">2</a>
-                    <a  href="#">3</a>
-                    <a  href="#">4</a>
-                    <a  href="#">5</a>
-                    <a  href="#">6</a>
-                    <a  href="#">Next</a>
-                    <a href="#">last</a>
-                </div>
+            </div>
+            <div class="pagination">
+                <a  href="#">First</a>
+                <a  href="#">Previous</a>
+                <a  class="active" href="#">1</a>
+                <a  href="#">2</a>
+                <a  href="#">3</a>
+                <a  href="#">4</a>
+                <a  href="#">5</a>
+                <a  href="#">6</a>
+                <a  href="#">Next</a>
+                <a href="#">last</a>
             </div>
         </div>
 
@@ -286,5 +288,16 @@
     </div>
 </div>
 
+
+<script>
+    $(document).ready(function(){
+        $("#myInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+    });
+</script>
 </body>
 </html>

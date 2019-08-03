@@ -243,6 +243,7 @@
 }
 .tablediv{
     width: 100%;
+    margin-bottom: 50px;
 }
 .actionimg{
     height: 15px;
@@ -263,4 +264,6 @@ td{
 }
 .pagination{
     font-size: 12px;
+    float: right;
+    margin-top: -50px;
 }
