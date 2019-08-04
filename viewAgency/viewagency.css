@@ -214,15 +214,25 @@
 .tagimg{
     height: 35px;
 }
-.search-container,.searchbtnview {
-    float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #444444;
+.tablesearch{
+
+    background: #f9f9f9;
     font-size: 17px;
-    border: 1px solid #444444;
+    border: 1px solid #bfbfbf;
     cursor: pointer;
+}
+.tablesearch,.searchbtnview,.btn{
+    float: right;
+    border-radius: 3px;
+
+}
+.btn{
+    float: left;
+    margin-right: 0;
+    height: 31px;
+    margin-top: 0;
+    background: #f9f9f9;
+    border: 1px solid #efefef;
 }
 
 .search-container ,.searchbtnview:hover {
@@ -230,10 +240,8 @@
 }
 .viewsearchpng{
      height: 20px;
+    margin-top: -10px;
  }
-.searchbtnview{
-    margin-top: -4px;
-}
 .table{
     margin-top: 30px;
     width: 100%;
