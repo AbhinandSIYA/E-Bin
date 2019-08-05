@@ -126,7 +126,114 @@
         </div>
 
 
+
+        <div id="overlay" >
+        <div class="container mt-5 col-11 col-sm-8 col-md-8 editagency" >
+
+            <div class="d-flex">
+                <div class="tagbox d-flex align-items-center justify-content-center">
+                    <img class="tagimg" src="../images/Add_agency.png" alt="">
+                </div>
+                <h5 class="mt-1 ml-1">EDIT AGENCY DATA</h5>
+            </div>
+            <div>
+               <div class="tagboxclose d-flex align-items-center justify-content-center">
+                   <a onclick="off()"><img class="tagimgclose" src="../images/close.png" alt=""></a>
+               </div>
+            </div>
+
+            <div class="row  d-flex " style="margin-left: 0;margin-right: 0">
+
+                <div class=" col-12 col-sm-12 col-md-6 editagency1">
+                    <form class="form ">
+                        <div class="form-group">
+                            <img class="txtfldimg" src="../images/user2.png" alt=""><input type="text" name="name" class="txtfld" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <img class="txtfldimg" src="../images/mail.png" alt=""><input type="email" name="email" class="txtfld" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <img class="txtfldimg" src="../images/call.png" alt=""><input type="number" name="contactnumber" class="txtfld" placeholder="Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <img class="txtfldimgadrs" src="../images/address.png" alt=""> <textarea name="address" rows="5" cols="20" class="txtfld" placeholder="Address"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <img class="txtfldimg" src="../images/user2.png" alt=""><input type="text" name="name" class="txtfld" placeholder="User Name">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 editagency2">
+                    <form class="form  justify-content-center align-items-center">
+                        <div class="form-group">
+                            <img class="txtfldimg" src="../images/password.png" alt=""><input type="password" name="password" class="txtfld" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <img class="txtfldimg" src="../images/password.png" alt=""><input type="password" name="confirmPassword" class="txtfld" placeholder="Confirm Password">
+                        </div>
+                        <div class="form-group">
+                            <img class="txtfldimg" src="../images/Bin%20limit.png" alt=""><input type="number" name="binLimit" class="txtfld" placeholder="Bin Limit">
+                        </div>
+                        <div class="form-group">
+                            <img class="txtfldimg" src="../images/Driver%20limit.png" alt=""><input type="number" name="driverlimit" class="txtfld"  placeholder="Driver Limit">
+                        </div>
+                        <div class="form-group">
+                            <img class="txtfldimg" src="../images/Support%20limit.png" alt=""><input type="number" name="supportlimit" class="txtfld"  placeholder="Support Limit">
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="form-group ml-1  col-12 col-sm-10 col-md-8 ">
+                                <img class="txtfldimg" src="../images/task.png" alt=""><label class="task" >Task</label>
+                                <div class="form-check-inline active">
+                                    <label class="form-check-label radiotxt" for="radio1">
+                                        <input type="radio" class="form-check-input " id="radio1" name="optradio" value="option1" checked>Static
+                                    </label>
+                                </div>
+                                <div class="form-check-inline">
+                                    <label class="form-check-label radiotxt" for="radio2">
+                                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Dynamic
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group d-flex  col-12 col-md-4 col-sm-2 dropdwn">
+                                <img class="txtfldimg" src="../images/Status.png" alt="">
+                                <div class="btn-group">
+                                    <button type="button" class="btn  dropdown-toggle btn-sm btn-outline-secondary" data-toggle="dropdown">Status</button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Active</a>
+                                        <a class="dropdown-item" href="#">Suspend</a>
+                                        <a class="dropdown-item" href="#">Waiting for Suspend</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="d-flex justify-content-center align-items-center justify-content-around">
+                        <div>
+                            <button onclick="off()" type="button" class="btn cancelbtn">CANCEL</button>
+                        </div>
+                        <div>
+                            <button onclick="off()" type="button" class="btn updatebtn" >UPDATE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
         <div class="container mt-5 col-11 col-sm-11 col-md-11 viewagency">
+
+
+
+
+
+
             <div class="d-flex">
                 <div class="tagbox d-flex align-items-center justify-content-center">
                     <img class="tagimg" src="../images/View%20agency.png" alt="">
@@ -169,7 +276,7 @@
                         <td><img style="height: 10px;margin-right: 2px" src="../images/suspend.png" alt="">Suspend</td>
                         <td><a href="#"><img class="actionimg" src="../images/delite.png" alt=""></a>
                             <a href="#"><img class="actionimg" src="../images/edit.png" alt=""></a>
-                            <a href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
+                            <a onclick="on()" href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
                     </tr>
                     <tr>
                         <td>#33104</td>
@@ -182,7 +289,7 @@
                         <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
                         <td><a href="#"><img class="actionimg" src="../images/delite.png" alt=""></a>
                             <a href="#"><img class="actionimg" src="../images/edit.png" alt=""></a>
-                            <a href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
+                            <a onclick="on()" href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
                     </tr>
                     <tr>
                         <td>#33105</td>
@@ -195,7 +302,7 @@
                         <td><img style="height: 10px;margin-right: 2px" src="../images/suspend.png" alt="">Suspend</td>
                         <td><a href="#"><img class="actionimg" src="../images/delite.png" alt=""></a>
                             <a href="#"><img class="actionimg" src="../images/edit.png" alt=""></a>
-                            <a href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
+                            <a onclick="on()" href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
                     </tr>
                     <tr>
                         <td>#33104</td>
@@ -208,7 +315,7 @@
                         <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
                         <td><a href="#"><img class="actionimg" src="../images/delite.png" alt=""></a>
                             <a href="#"><img class="actionimg" src="../images/edit.png" alt=""></a>
-                            <a href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
+                            <a onclick="on()" href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
                     </tr>
                     <tr>
                         <td>#33104</td>
@@ -221,7 +328,7 @@
                         <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
                         <td><a href="#"><img class="actionimg" src="../images/delite.png" alt=""></a>
                             <a href="#"><img class="actionimg" src="../images/edit.png" alt=""></a>
-                            <a href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
+                            <a onclick="on()" href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
                     </tr>
                     <tr>
                         <td>#33104</td>
@@ -234,7 +341,7 @@
                         <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
                         <td><a href="#"><img class="actionimg" src="../images/delite.png" alt=""></a>
                             <a href="#"><img class="actionimg" src="../images/edit.png" alt=""></a>
-                            <a href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
+                            <a onclick="on()" href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
                     </tr>
                     <tr>
                         <td>#33104</td>
@@ -247,7 +354,7 @@
                         <td><img style="height: 10px;margin-right: 2px" src="../images/waitingforsuspend.png" alt="">Waiting to Suspend</td>
                         <td><a href="#"><img class="actionimg" src="../images/delite.png" alt=""></a>
                             <a href="#"><img class="actionimg" src="../images/edit.png" alt=""></a>
-                            <a href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
+                            <a onclick="on()" href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
                     </tr>
                     <tr>
                         <td>#33104</td>
@@ -260,7 +367,7 @@
                         <td><img style="height: 10px;margin-right: 2px" src="../images/active.png" alt="">Active</td>
                         <td><a href="#"><img class="actionimg" src="../images/delite.png" alt=""></a>
                             <a href="#"><img class="actionimg" src="../images/edit.png" alt=""></a>
-                            <a href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
+                            <a onclick="on()" href="#"><img class="actionimg" src="../images/edit2.png" alt=""></a></td>
                     </tr>
 
                     </tbody>
@@ -298,6 +405,16 @@
             });
         });
     });
+</script>
+
+<script>
+    function on() {
+        document.getElementById("overlay").style.display = "block";
+    }
+
+    function off() {
+        document.getElementById("overlay").style.display = "none";
+    }
 </script>
 </body>
 </html>
